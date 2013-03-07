@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+
+    <string name="unknown">Неизвестен</string>
+    <string name="type_incoming">Входящ</string>
+    <string name="type_outgoing">Изходящ</string>
+    <string name="type_missed">Пропуснати</string>
+    <string name="callBack">Връщане на обаждането</string>
+    <string name="callAgain">Позвъни отново</string>
+    <string name="returnCall">Върнато повикване</string>
+
+</resources>

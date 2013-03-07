@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Copyright (C) 2010 Regis Montoya (aka r3gis - www.r3gis.fr)
+
+	This file is part of CSipSimple. 
+-->
+
+<resources>
+
+    <string name="app_name">Spore</string>
+    <string name="permlab_useSip">Use Spore</string>
+    <string name="permdesc_useSip">Place free and private calls on mycelial\'s beta OSTN.</string>
+    <string name="permlab_configureSip">Use Spore</string>
+    <string name="permdesc_configureSip">Place free and private calls on mycelial\'s beta OSTN.</string>
+
+</resources>

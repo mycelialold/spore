@@ -1,0 +1,266 @@
+# view res/layout/codecs_pager.xml #generated:23
+# view res/layout/sip_home_dual_pane.xml #generated:27
+# view res/layout/sip_home_one_pane.xml #generated:3
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:43
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:26
+# view res/layout/abs__screen_simple.xml #generated:32
+# view res/layout/abs__screen_simple_overlay_action_mode.xml #generated:27
+# view xlarge/res/layout-xlarge/abs__screen_action_bar.xml #generated:43
+# view xlarge/res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:24
+-keep class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout { <init>(...); }
+
+# view large/res/layout-large/abs__action_mode_close_item.xml #generated:17
+# view res/layout/abs__action_mode_close_item.xml #generated:17
+-keep class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout { <init>(...); }
+
+# view res/layout/abs__action_menu_item_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abs__action_menu_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ActionMenuView { <init>(...); }
+
+# view res/layout/abs__list_menu_item_layout.xml #generated:17
+# view res/layout/abs__popup_menu_item_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:26
+# view res/layout/abs__screen_action_bar.xml #generated:50
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:29
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:52
+# view xlarge/res/layout-xlarge/abs__screen_action_bar.xml #generated:26
+# view xlarge/res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:27
+-keep class com.actionbarsherlock.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abs__action_mode_bar.xml #generated:19
+# view res/layout/abs__screen_action_bar.xml #generated:36
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:40
+# view xlarge/res/layout-xlarge/abs__screen_action_bar.xml #generated:36
+# view xlarge/res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:37
+-keep class com.actionbarsherlock.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:31
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:35
+# view xlarge/res/layout-xlarge/abs__screen_action_bar.xml #generated:31
+# view xlarge/res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:32
+-keep class com.actionbarsherlock.internal.widget.ActionBarView { <init>(...); }
+
+# view res/layout/abs__action_bar_home.xml #generated:17
+-keep class com.actionbarsherlock.internal.widget.ActionBarView$HomeView { <init>(...); }
+
+# view res/layout/abs__action_menu_item_layout.xml #generated:40
+-keep class com.actionbarsherlock.internal.widget.CapitalizingButton { <init>(...); }
+
+# view res/layout/abs__dialog_title_holo.xml #generated:23
+-keep class com.actionbarsherlock.internal.widget.FakeDialogPhoneWindow { <init>(...); }
+
+# view res/layout/abs__action_bar_tab_bar_view.xml #generated:3
+# view res/layout/abs__activity_chooser_view.xml #generated:19
+-keep class com.actionbarsherlock.internal.widget.IcsLinearLayout { <init>(...); }
+
+# view res/layout/abs__action_bar_tab.xml #generated:3
+-keep class com.actionbarsherlock.internal.widget.ScrollingTabContainerView$TabView { <init>(...); }
+
+# view AndroidManifest.xml #generated:514
+-keep class com.csipsimple.db.DBProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:500
+-keep class com.csipsimple.plugins.telephony.CallHandler { <init>(...); }
+
+# view AndroidManifest.xml #generated:207
+# view AndroidManifest.xml #generated:223
+-keep class com.csipsimple.service.DeviceStateReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:443
+-keep class com.csipsimple.service.HeadsetButtonReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:321
+-keep class com.csipsimple.service.OutgoingCall { <init>(...); }
+
+# view AndroidManifest.xml #generated:510
+-keep class com.csipsimple.service.PreferenceProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:195
+-keep class com.csipsimple.service.SipService { <init>(...); }
+
+# view AndroidManifest.xml #generated:431
+-keep class com.csipsimple.ui.PickupSipUri { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.csipsimple.ui.SipHome { <init>(...); }
+
+# view AndroidManifest.xml #generated:525
+-keep class com.csipsimple.ui.account.AccountEdit { <init>(...); }
+
+# view res/layout/accounts_chooser_view.xml #generated:2
+-keep class com.csipsimple.ui.account.AccountsChooserListFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:521
+-keep class com.csipsimple.ui.account.AccountsEditList { <init>(...); }
+
+# view res/layout/accounts_view.xml #generated:2
+-keep class com.csipsimple.ui.account.AccountsEditListFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:233
+-keep class com.csipsimple.ui.calllog.CallLogDetailsActivity { <init>(...); }
+
+# view res/layout/call_detail_history_item.xml #generated:33
+# view res/layout/call_log_list_item.xml #generated:88
+-keep class com.csipsimple.ui.calllog.CallTypeIconsView { <init>(...); }
+
+# view res/layout/dialer_digit.xml #generated:24
+-keep class com.csipsimple.ui.dialpad.DialerLayout { <init>(...); }
+
+# view res/layout/dialer_digit.xml #generated:51
+-keep class com.csipsimple.ui.dialpad.DigitsEditText { <init>(...); }
+
+# view res/layout/fav_list_item.xml #generated:42
+-keep class com.csipsimple.ui.favorites.PresenceStatusSpinner { <init>(...); }
+
+# view AndroidManifest.xml #generated:238
+-keep class com.csipsimple.ui.filters.AccountFilters { <init>(...); }
+
+# view res/layout/account_filters_view.xml #generated:2
+-keep class com.csipsimple.ui.filters.AccountFiltersListFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:243
+-keep class com.csipsimple.ui.filters.EditFilter { <init>(...); }
+
+# view AndroidManifest.xml #generated:415
+-keep class com.csipsimple.ui.incall.InCallActivity { <init>(...); }
+
+# view res/layout/in_call_main.xml #generated:77
+-keep class com.csipsimple.ui.incall.InCallAnswerControls { <init>(...); }
+
+# view res/layout/in_call_main.xml #generated:86
+-keep class com.csipsimple.ui.incall.InCallControls { <init>(...); }
+
+# view res/layout/in_call_main.xml #generated:54
+# view res/layout/in_call_main.xml #generated:65
+-keep class com.csipsimple.ui.incall.InCallInfoGrid { <init>(...); }
+
+# view AndroidManifest.xml #generated:436
+-keep class com.csipsimple.ui.incall.InCallMediaControl { <init>(...); }
+
+# view AndroidManifest.xml #generated:491
+-keep class com.csipsimple.ui.messages.MessageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:332
+-keep class com.csipsimple.ui.outgoingcall.OutgoingCallChooser { <init>(...); }
+
+# view res/layout/outgoing_call_view.xml #generated:2
+-keep class com.csipsimple.ui.outgoingcall.OutgoingCallListFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:307
+-keep class com.csipsimple.ui.prefs.AudioTester { <init>(...); }
+
+# view AndroidManifest.xml #generated:302
+-keep class com.csipsimple.ui.prefs.Codecs { <init>(...); }
+
+# view AndroidManifest.xml #generated:290
+-keep class com.csipsimple.ui.prefs.PrefsFast { <init>(...); }
+
+# view AndroidManifest.xml #generated:285
+-keep class com.csipsimple.ui.prefs.PrefsFilters { <init>(...); }
+
+# view AndroidManifest.xml #generated:268
+-keep class com.csipsimple.ui.prefs.cupcake.MainPrefs { <init>(...); }
+
+# view AndroidManifest.xml #generated:281
+-keep class com.csipsimple.ui.prefs.cupcake.PrefsLoaderActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:255
+-keep class com.csipsimple.ui.prefs.hc.MainPrefs { <init>(...); }
+
+# view res/layout/call_detail.xml #generated:134
+# view res/layout/compose_message_activity.xml #generated:64
+# view res/layout/dialer_digit.xml #generated:67
+# view res/layout/edit_sip_uri.xml #generated:49
+-keep class com.csipsimple.widgets.AccountChooserButton { <init>(...); }
+
+# view AndroidManifest.xml #generated:461
+-keep class com.csipsimple.widgets.AccountWidgetConfigure { <init>(...); }
+
+# view AndroidManifest.xml #generated:446
+-keep class com.csipsimple.widgets.AccountWidgetProvider { <init>(...); }
+
+# view res/layout/call_log_list_item.xml #generated:18
+# view res/layout/conversation_list_item.xml #generated:22
+-keep class com.csipsimple.widgets.CheckableListItemView { <init>(...); }
+
+# view res/layout/dialpad_compose_3x5.xml #generated:20
+# view res/layout/dialpad_compose_4x4.xml #generated:24
+-keep class com.csipsimple.widgets.DialerCallBar { <init>(...); }
+
+# view res/layout/dialpad_compose_3x5.xml #generated:4
+# view res/layout/dialpad_compose_4x4.xml #generated:8
+# view res/layout/in_call_dialpad.xml #generated:42
+-keep class com.csipsimple.widgets.Dialpad { <init>(...); }
+
+# view res/layout/accounts_edit_list_item.xml #generated:28
+# view res/layout/accounts_edit_list_item.xml #generated:57
+# view res/layout/filters_list_item.xml #generated:30
+-keep class com.csipsimple.widgets.DontPressWithParentLayout { <init>(...); }
+
+# view res/layout/accounts_edit_list.xml #generated:30
+# view res/layout/codecs_list.xml #generated:28
+-keep class com.csipsimple.widgets.DragnDropListView { <init>(...); }
+
+# view res/layout/pickup_uri.xml #generated:27
+-keep class com.csipsimple.widgets.EditSipUri { <init>(...); }
+
+# view res/layout/in_call_card.xml #generated:30
+# view res/layout/in_call_card.xml #generated:43
+-keep class com.csipsimple.widgets.MarqueeTextView { <init>(...); }
+
+# view res/layout/in_call_card.xml #generated:11
+-keep class com.csipsimple.widgets.MaxScaleImageView { <init>(...); }
+
+# view res/xml/w_advanced_preferences.xml #generated:43
+# view res/xml/w_alternate_server_preferences.xml #generated:32
+# view res/xml/w_auth_and_proxy_preferences.xml #generated:34
+# view res/xml/w_authorization_preferences.xml #generated:29
+# view res/xml/w_basic_preferences.xml #generated:43
+# view res/xml/w_ecs_preferences.xml #generated:38
+# view res/xml/w_expert_preferences.xml #generated:50
+# view res/xml/w_simple_preferences.xml #generated:37
+-keep class com.csipsimple.widgets.PasswordPreference { <init>(...); }
+
+# view res/layout/quickaction_item.xml #generated:18
+-keep class com.csipsimple.widgets.QuickActionItem { <init>(...); }
+
+# view res/layout/in_call_main.xml #generated:92
+-keep class com.csipsimple.widgets.ScreenLocker { <init>(...); }
+
+# view res/xml/prefs_media.xml #generated:140
+# view res/xml/prefs_media.xml #generated:147
+# view res/xml/prefs_media.xml #generated:154
+# view res/xml/prefs_media.xml #generated:161
+# view res/xml/prefs_media.xml #generated:168
+-keep class com.csipsimple.widgets.SeekBarPreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:482
+-keep class com.csipsimple.widgets.ShortcutWidgetConfigure { <init>(...); }
+
+# view AndroidManifest.xml #generated:469
+-keep class com.csipsimple.widgets.ShortcutWidgetProvider { <init>(...); }
+
+# view res/layout/call_log_list_item.xml #generated:48
+# view res/layout/conversation_list_item.xml #generated:34
+# view res/layout/fav_list_item.xml #generated:60
+# view res/layout/message_list_item.xml #generated:27
+-keep class com.csipsimple.widgets.contactbadge.QuickContactBadge { <init>(...); }
+
+# view AndroidManifest.xml #generated:314
+-keep class com.csipsimple.wizards.BasePrefsWizard { <init>(...); }
+
+# view AndroidManifest.xml #generated:248
+-keep class com.csipsimple.wizards.WizardChooser { <init>(...); }
+
+# view AndroidManifest.xml #generated:536
+-keep class com.csipsimple.wizards.impl.MondotalkCreate { <init>(...); }
+
+# view AndroidManifest.xml #generated:205
+-keep class com.spore.service.Downloader { <init>(...); }
+
